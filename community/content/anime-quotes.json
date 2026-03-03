@@ -145,8 +145,7 @@
     "english": "Go beyond! Plus Ultra!",
     "anime": "My Hero Academia",
     "character": "All Might"
-  }
-,
+  },
   {
     "japanese": "俺はガンダムだ！",
     "romaji": "Ore wa Gandamu da!",
@@ -155,17 +154,24 @@
     "character": "Setsuna F. Seiei"
   },
   {
-  "japanese": "仲間を大切にしない奴はそれ以上のクズだ",
-  "romaji": "Nakama o taisetsu ni shinai yatsu wa sore ijou no kuzu da",
-  "english": "Those who don't take care of their comrades are worse than scum.",
-  "anime": "Naruto",
-  "character": "Kakashi Hatake"
-},
+    "japanese": "仲間を大切にしない奴はそれ以上のクズだ",
+    "romaji": "Nakama o taisetsu ni shinai yatsu wa sore ijou no kuzu da",
+    "english": "Those who don't take care of their comrades are worse than scum.",
+    "anime": "Naruto",
+    "character": "Kakashi Hatake"
+  },
   {
     "japanese": "オラオラオラオラオラ！",
     "romaji": "Ora ora ora ora ora!",
     "english": "Ora ora ora ora ora!",
     "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
     "character": "Jotaro Kujo"
+  },
+  {
+    "japanese": "今日の俺は一味違うぜ！",
+    "romaji": "Kyou no ore wa hitomi chigau ze!",
+    "english": "I'm on a different level today! (alt wording 13)",
+    "anime": "JoJo's Bizarre Adventure: Diamond is Unbreakable",
+    "character": "Okuyasu Nijimura"
   }
 ]
