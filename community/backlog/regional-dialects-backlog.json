@@ -267,7 +267,7 @@
     "note": "Hokkaido intensifier. (Set 2)",
     "id": 27,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "dialect": "したっけ",
@@ -277,7 +277,7 @@
     "note": "Transition/goodbye phrase. (Set 2)",
     "id": 28,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "dialect": "〜ばい",
@@ -287,7 +287,7 @@
     "note": "Assertive friendly ending. (Set 2)",
     "id": 29,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "dialect": "〜けん",
@@ -297,7 +297,7 @@
     "note": "Reason marker in Kyushu. (Set 2)",
     "id": 30,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "dialect": "よか",
@@ -307,7 +307,7 @@
     "note": "Common Kyushu replacement. (Set 2)",
     "id": 31,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "dialect": "でら",
@@ -317,7 +317,7 @@
     "note": "Characteristic Nagoya intensifier. (Set 2)",
     "id": 32,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "dialect": "〜だがや",
@@ -337,7 +337,7 @@
     "note": "Regional intensifier. (Set 2)",
     "id": 34,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "dialect": "〜じゃけぇ",
@@ -347,7 +347,7 @@
     "note": "Common causal ending. (Set 2)",
     "id": 35,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "dialect": "いけん",
@@ -357,7 +357,7 @@
     "note": "Prohibitive nuance. (Set 2)",
     "id": 36,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "dialect": "なんくるないさ",
@@ -367,7 +367,7 @@
     "note": "Famous Okinawan resilience phrase. (Set 2)",
     "id": 37,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "dialect": "にふぇーでーびる",
@@ -386,7 +386,7 @@
     "region": "Kansai",
     "note": "Explanatory ending in conversation. (Set 2)",
     "id": 39,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
