@@ -177,7 +177,7 @@
     "meaning": "Obtain something. (Set 1)",
     "id": 20,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "japanese": "猫の手も借りたい",
@@ -185,7 +185,7 @@
     "english": "I’d even borrow a cat’s paws",
     "meaning": "Extremely busy and desperate for help. (Set 2)",
     "id": 21,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
