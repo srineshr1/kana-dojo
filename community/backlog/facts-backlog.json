@@ -116,7 +116,7 @@
   {
     "id": 20,
     "fact": "The word 'karoshi' (過労死) meaning 'death from overwork' is so prevalent that it's recognized as a legal cause of death with compensated claims.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -128,7 +128,7 @@
   {
     "id": 22,
     "fact": "There's a Japanese word 'komorebi' (木漏れ日) specifically for sunlight filtering through leaves - no direct English translation exists.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -146,7 +146,7 @@
   {
     "id": 25,
     "fact": "Japan has a museum dedicated to instant ramen in Osaka where visitors can create their own custom Cup Noodles flavor combinations.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -164,7 +164,7 @@
   {
     "id": 28,
     "fact": "There are special 'women-only' train cars in Japan during rush hour to prevent groping - marked with pink signs and available on most major lines.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -266,7 +266,7 @@
   {
     "id": 45,
     "fact": "The Japanese word 'mono no aware' (物の哀れ) describes the bittersweetness of passing time and the gentle sadness of things.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -812,7 +812,7 @@
   {
     "id": 136,
     "fact": "Japan has an island dedicated entirely to art museums - Naoshima, where Tadao Ando's architecture blends with nature.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -872,7 +872,7 @@
   {
     "id": 146,
     "fact": "Japan has a phenomenon called 'Paris Syndrome' - Japanese tourists experiencing severe shock when Paris doesn't match their idealized expectations.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -926,7 +926,7 @@
   {
     "id": 155,
     "fact": "There's a Japanese concept 'uchi-soto' (内外) - inside/outside - defining who you're close to versus everyone else.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -944,13 +944,13 @@
   {
     "id": 158,
     "fact": "Japan has 'melon bread' (melonpan) that contains no melon - it's named for the cookie crust pattern resembling a melon.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
     "id": 159,
     "fact": "There's a Japanese practice 'natsukashii' (懐かしい) experience parties - rooms designed to trigger nostalgia from specific eras.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -1460,7 +1460,7 @@
   {
     "id": 244,
     "fact": "The term 'machiya' (町家) refers to traditional wooden townhouses with storefronts on the first floor and living spaces above.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -1880,7 +1880,7 @@
   {
     "id": 314,
     "fact": "'Wabi-sabi' is the appreciation of beauty in imperfection and the natural aging of materials.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {

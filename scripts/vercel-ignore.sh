@@ -28,25 +28,56 @@ is_skip_file() {
 
 get_changed_files() {
   local files=""
+  local all_files=""
+  local had_nonempty=0
+  local commit_sha="${VERCEL_GIT_COMMIT_SHA:-HEAD}"
+
+  append_files() {
+    local candidate="$1"
+    candidate="$(printf '%s\n' "$candidate" | tr -d '\r' | sed '/^$/d')"
+    if [ -n "$candidate" ]; then
+      had_nonempty=1
+      all_files="$(printf '%s\n%s\n' "$all_files" "$candidate")"
+    fi
+  }
+
+  # Merge-aware view of the commit itself (critical for merge commits)
+  files=$(git show -m --name-only --pretty="" "$commit_sha" 2>/dev/null || true)
+  append_files "$files"
 
   if [ -n "${VERCEL_GIT_PULL_REQUEST_BASE_BRANCH:-}" ] && [ -n "${VERCEL_GIT_COMMIT_SHA:-}" ]; then
     git fetch origin "${VERCEL_GIT_PULL_REQUEST_BASE_BRANCH}" --depth=1 2>/dev/null || true
     files=$(git diff "origin/${VERCEL_GIT_PULL_REQUEST_BASE_BRANCH}...${VERCEL_GIT_COMMIT_SHA}" --name-only 2>/dev/null || true)
+    append_files "$files"
   fi
 
   if [ -z "$files" ] && [ -n "${VERCEL_GIT_PREVIOUS_SHA:-}" ] && [ -n "${VERCEL_GIT_COMMIT_SHA:-}" ]; then
     files=$(git diff "${VERCEL_GIT_PREVIOUS_SHA}...${VERCEL_GIT_COMMIT_SHA}" --name-only 2>/dev/null || true)
+    append_files "$files"
   fi
 
-  if [ -z "$files" ]; then
+  if [ -n "${VERCEL_GIT_COMMIT_SHA:-}" ]; then
+    files=$(git diff "${VERCEL_GIT_COMMIT_SHA}^1..${VERCEL_GIT_COMMIT_SHA}" --name-only 2>/dev/null || true)
+    append_files "$files"
+  fi
+
+  if [ -n "${VERCEL_GIT_COMMIT_SHA:-}" ]; then
+    files=$(git show --name-only --pretty="" "${VERCEL_GIT_COMMIT_SHA}" 2>/dev/null || true)
+    append_files "$files"
+  else
     files=$(git diff HEAD~1 HEAD --name-only 2>/dev/null || true)
-  fi
+    append_files "$files"
 
-  if [ -z "$files" ]; then
     files=$(git show --name-only --pretty="" HEAD 2>/dev/null || true)
+    append_files "$files"
   fi
 
-  printf '%s\n' "$files"
+  if [ "$had_nonempty" -eq 1 ]; then
+    printf '%s\n' "$all_files" | sed '/^$/d' | sort -u
+    return 0
+  fi
+
+  printf ''
 }
 
 LAST_COMMIT_MESSAGE=$(git log -1 --pretty=%s 2>/dev/null || true)
@@ -64,6 +95,10 @@ fi
 CHANGED_FILES="$(get_changed_files | tr -d '\r' | sed '/^$/d')"
 
 if [ -z "$CHANGED_FILES" ]; then
+  if [[ "$LAST_COMMIT_MESSAGE" =~ ^Merge\ pull\ request\ #[0-9]+ ]]; then
+    echo "🟡 Could not determine changed files for merge commit; conservatively skipping build."
+    exit 0
+  fi
   echo "🟡 Could not determine changed files via git diff. Proceeding with build."
   exit 1
 fi

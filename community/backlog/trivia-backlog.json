@@ -165,7 +165,7 @@
     ],
     "correctIndex": 0,
     "completed": false,
-    "issued": false
+    "issued": true
   },
   {
     "id": 13,
@@ -542,7 +542,7 @@
       "Mochi"
     ],
     "correctIndex": 0,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -571,7 +571,7 @@
     ],
     "correctIndex": 0,
     "completed": false,
-    "issued": false
+    "issued": true
   },
   {
     "id": 42,
@@ -585,7 +585,7 @@
     ],
     "correctIndex": 0,
     "completed": false,
-    "issued": false
+    "issued": true
   },
   {
     "id": 43,
@@ -878,7 +878,7 @@
       "Nagano"
     ],
     "correctIndex": 0,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -976,7 +976,7 @@
       "Yokohama"
     ],
     "correctIndex": 0,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -1004,7 +1004,7 @@
       "Hokuriku"
     ],
     "correctIndex": 0,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -1312,7 +1312,7 @@
       "Kyushu"
     ],
     "correctIndex": 3,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -1354,7 +1354,7 @@
       "Kissa"
     ],
     "correctIndex": 1,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -1522,7 +1522,7 @@
       "Sendai"
     ],
     "correctIndex": 0,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -1690,7 +1690,7 @@
       "Shichi-Go-San"
     ],
     "correctIndex": 0,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -1704,7 +1704,7 @@
       "Izakaya"
     ],
     "correctIndex": 0,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {

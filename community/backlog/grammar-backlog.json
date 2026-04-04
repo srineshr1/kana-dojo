@@ -8,7 +8,7 @@
   {
     "id": 2,
     "text": "\"〜ません\" is the polite negative form of verbs, used to say something doesn't happen.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -74,7 +74,7 @@
   {
     "id": 13,
     "text": "\"〜なければならない\" means \"must\" or \"have to\" do something.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -255,7 +255,7 @@
     "id": 43,
     "text": "\"〜にくい\" attaches to verb stems to mean \"hard to do\".",
     "completed": false,
-    "issued": false
+    "issued": true
   },
   {
     "id": 44,
@@ -429,7 +429,7 @@
     "id": 72,
     "text": "\"〜て以来\" means \"since (doing)\".",
     "completed": false,
-    "issued": false
+    "issued": true
   },
   {
     "id": 73,
@@ -530,13 +530,13 @@
   {
     "id": 89,
     "text": "\"〜てもいいです\" means \"it's okay to\" and grants permission. (practice variation 4)",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
     "id": 90,
     "text": "\"〜てはいけません\" means \"must not\" and is used for prohibitions. (practice variation 5)",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -674,13 +674,13 @@
   {
     "id": 113,
     "text": "\"〜すぎる\" attaches to verbs or adjectives to mean \"too much\". (practice variation 28)",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
     "id": 114,
     "text": "\"〜らしい\" can mean \"seems\" or describe a typical characteristic. (practice variation 29)",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -770,7 +770,7 @@
   {
     "id": 129,
     "text": "\"〜やすい\" attaches to verb stems to mean \"easy to do\". (practice variation 44)",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -794,7 +794,7 @@
   {
     "id": 133,
     "text": "\"〜そうだ\" can indicate appearance, like \"it looks like\". (practice variation 48)",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -806,7 +806,7 @@
   {
     "id": 135,
     "text": "\"〜わけではない\" means \"not necessarily\" or \"it's not that\". (practice variation 50)",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -818,7 +818,7 @@
   {
     "id": 137,
     "text": "\"〜おかげで\" expresses gratitude for a cause, \"thanks to\". (practice variation 52)",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {

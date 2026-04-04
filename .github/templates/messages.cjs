@@ -21,7 +21,7 @@ module.exports = {
     ],
     // Pool — 2-3 randomly selected per issue (adds variety, avoids spam signal)
     secondaryIssuePool: [
-      /* 
+      /*
       'easy',
       'beginner',
       'beginner-friendly',
@@ -221,7 +221,7 @@ module.exports = {
     common: {
       titleTemplate:
         // '[Good First Issue] {emoji} Add new {issueType} - Beginner-Friendly Contribution (good-first-issue, <1 min, no setup)',
-        '[Good First Issue] {emoji} Add new {issueType} - Beginner-Friendly Contribution',
+        '[Good First Issue] {emoji} Add new {issueType} - Beginner-Friendly Open-source Contribution',
       shortTitleTemplate: '{emoji} Add new {issueType} {id}',
       difficulty: 'Easy (good first issue!)',
       instructionsHeader: '### 📝 Instructions',

@@ -96,7 +96,7 @@
     "game": "Dragon Quest XI",
     "character": "Hero / party lines",
     "id": 10,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -166,7 +166,7 @@
     "game": "Persona 5 Strikers",
     "character": "Joker",
     "id": 17,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -286,7 +286,7 @@
     "game": "Street Fighter series",
     "character": "Ryu",
     "id": 29,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -296,7 +296,7 @@
     "game": "Dragon Quest XI",
     "character": "Hero / party lines",
     "id": 30,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -396,7 +396,7 @@
     "game": "Samurai game proverb line",
     "character": "Musashi reference",
     "id": 40,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -546,7 +546,7 @@
     "game": "Fire Emblem series",
     "character": "Various protagonists",
     "id": 55,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -666,7 +666,7 @@
     "game": "Dragon Quest series",
     "character": "Recurring command voice",
     "id": 67,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -696,7 +696,7 @@
     "game": "Dragon Quest XI",
     "character": "Hero / party lines",
     "id": 70,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -826,7 +826,7 @@
     "game": "Tales of the Abyss",
     "character": "Luke fon Fabre",
     "id": 83,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -846,7 +846,7 @@
     "game": "Danganronpa series",
     "character": "Makoto Naegi",
     "id": 85,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -946,7 +946,7 @@
     "game": "Fire Emblem series",
     "character": "Various protagonists",
     "id": 95,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -1096,7 +1096,7 @@
     "game": "Dragon Quest XI",
     "character": "Hero / party lines",
     "id": 110,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {

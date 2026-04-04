@@ -15,7 +15,6 @@ import { useRouter } from '@/core/i18n/routing';
 import { finalizeSession, startSession } from '@/shared/lib/sessionHistory';
 import useClassicSessionStore from '@/shared/store/useClassicSessionStore';
 import {
-  type StreakMilestone,
   shouldShowStreakMilestoneOverlay,
 } from '@/shared/lib/game/streakMilestones';
 
@@ -50,9 +49,7 @@ const Game = () => {
   const gameMode = useKanaStore(state => state.selectedGameModeKana);
   const router = useRouter();
   const [view, setView] = useState<'playing' | 'summary'>('playing');
-  const [activeMilestone, setActiveMilestone] = useState<StreakMilestone | null>(
-    null,
-  );
+  const [activeMilestone, setActiveMilestone] = useState<number | null>(null);
   const [sessionId, setSessionId] = useState<string | null>(null);
   const [sessionNonce, setSessionNonce] = useState(0);
   const setActiveSessionId = useClassicSessionStore(

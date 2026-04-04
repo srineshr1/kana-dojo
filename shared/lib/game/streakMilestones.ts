@@ -44,7 +44,13 @@ export const shouldShowStreakMilestoneOverlay = (streak: number): boolean => {
   return isStreakMilestone(streak);
 };
 
-export const getRandomMilestoneMessage = (milestone: StreakMilestone): string => {
+export const getRandomMilestoneMessage = (
+  milestone: StreakMilestone | number,
+): string => {
+  if (!isStreakMilestone(milestone)) {
+    return '';
+  }
+
   const pool = STREAK_MESSAGES[milestone];
   const index = Math.floor(Math.random() * pool.length);
   return pool[index];
