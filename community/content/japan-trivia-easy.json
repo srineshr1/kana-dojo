@@ -657,5 +657,16 @@
        "Ringgit"
      ],
   "correctIndex": 0
-  }
+  },
+    {
+  "question": "Which Japanese island is home to the city of Sapporo? (Community variation 5)",
+  "difficulty": "easy",
+  "answers": [
+    "Honshu",
+    "Hokkaido",
+    "Shikoku",
+    "Kyushu"
+  ],
+  "correctIndex": 1
+}
 ]
